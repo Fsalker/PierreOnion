@@ -36,13 +36,13 @@ namespace API.Models
             comments.Add(comment5);
 
             Recipe recipe1 = new Recipe(0, "Gogosi bomba", "http://www.click.ro/sites/default/files/styles/articol/public/medias/2016/02/09/gogosi-cu-crema-de-vanilie-si-ciocolata-580x400.jpg?itok=6CsQizOI",
-                "Introduceti bomba in gogoasa si obtineti gogoasa bomba", 4.2f, 5f, ingredients, comments, 47, 3);
+               );
             Recipe recipe2 = new Recipe(1, "Bomba gogoasa", "http://www.click.ro/sites/default/files/styles/articol/public/medias/2016/02/09/gogosi-cu-crema-de-vanilie-si-ciocolata-580x400.jpg?itok=6CsQizOI",
-                "Introduceti bomba in gogoasa si obtineti gogoasa bomba", 4.2f, 5f, ingredients, comments, 47, 3);
+               );
             Recipe recipe3 = new Recipe(2, "Ogosi bombag", "http://www.click.ro/sites/default/files/styles/articol/public/medias/2016/02/09/gogosi-cu-crema-de-vanilie-si-ciocolata-580x400.jpg?itok=6CsQizOI",
-                "Introduceti bomba in gogoasa si obtineti gogoasa bomba", 4.2f, 5f, ingredients, comments, 47, 3);
+               );
             Recipe recipe4 = new Recipe(3, "Mai multe gogosi", "http://www.click.ro/sites/default/files/styles/articol/public/medias/2016/02/09/gogosi-cu-crema-de-vanilie-si-ciocolata-580x400.jpg?itok=6CsQizOI",
-                "Introduceti bomba in gogoasa si obtineti gogoasa bomba", 4.2f, 5f, ingredients, comments, 47, 3);
+                );
 
             ArrRecipe.Add(recipe1);
             ArrRecipe.Add(recipe2);
