@@ -7,23 +7,28 @@ namespace API.Controllers
     [Route("api/[controller]")]
     public class RecipeController : Controller
     {
-        public IRepo ArrRecipe { get; set; }
+        private static IRepo RecipeRepo { get; set; }
 
-        public RecipeController(IRepo arrRecipe)
+        public RecipeController(IRepo recipeRepo)
         {
-            ArrRecipe = arrRecipe;
+            RecipeRepo = recipeRepo;
         }
 
-        [HttpGet]
-        public List<Recipe> GetAllRecipes()
+        /*public String Test(int nr)
         {
-            return ArrRecipe.ReadAllRecipes();
+            return "Hello, your number = "+nr;
+        }*/
+        
+        /*[HttpGet]
+        public List<Recipe> GetAll()
+        {
+            return RecipeRepo.ReadAll();
         }
 
         [HttpGet("{id}")]
-        public Recipe GetRecipeById(int id)
+        public Recipe GetRecipe(int id)
         {
-            return ArrRecipe.ReadRecipeById(id);
-        }
+            return RecipeRepo.Read(id);
+        }*/
     }
 }

@@ -61,16 +61,16 @@ namespace API.Models
             steps2.Add("3.Dizolvam drojdia in 50 ml lapte caldut.Restul de lapte il incalzim impreuna cu zaharul, atat doar cat acesta sa se topeasca. Dam deoparte, lasam sa se racoreasca si adaugam esenta de vanilie.");
             steps2.Add("4.Dupa ce s-au racorit, le pudram cu zahar si le servim.");
 
-            ArrRecipe.Add(new Recipe(0, "Gogoasa", "http://velpitar.ro/wp-content/uploads/2015/02/gogoasa.jpg", "Minunata gogoasa magnifica", steps1));
-            ArrRecipe.Add(new Recipe(1, "Ogoasag", "http://4.bp.blogspot.com/-wTdORnU4dzU/VDI9VVYQTlI/AAAAAAAAG04/pAHj-YejlXw/s1600/gogoasa.JPG", "Varianta americana a gogosii", steps2));
+            ArrRecipe.Add(new Recipe(0,"Gogoasa", "http://velpitar.ro/wp-content/uploads/2015/02/gogoasa.jpg", "Minunata gogoasa magnifica", steps1));
+            ArrRecipe.Add(new Recipe(1,"Ogoasag", "http://4.bp.blogspot.com/-wTdORnU4dzU/VDI9VVYQTlI/AAAAAAAAG04/pAHj-YejlXw/s1600/gogoasa.JPG", "Varianta americana a gogosii", steps2));
         }
 
-        public List<Recipe> ReadAllRecipes()
+        public List<Recipe> ReadAll()
         {
             return ArrRecipe;
         }
         
-        public Recipe ReadRecipeById(int id)
+        public Recipe Read(int id)
         {
             return ArrRecipe.Find(x => x.Id == id);
         }
