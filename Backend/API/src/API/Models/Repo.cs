@@ -10,7 +10,7 @@ namespace API.Models
 
         public Repo()
         {
-            Ingredient ingredient1 = new Ingredient(0, "Lapte", 500, "ml");
+            /*Ingredient ingredient1 = new Ingredient(0, "Lapte", 500, "ml");
             Ingredient ingredient2 = new Ingredient(1, "Oua", 2, "buc");
 
             List<Ingredient> ingredients = new List<Ingredient>();
@@ -47,16 +47,32 @@ namespace API.Models
             ArrRecipe.Add(recipe1);
             ArrRecipe.Add(recipe2);
             ArrRecipe.Add(recipe3);
-            ArrRecipe.Add(recipe4);
+            ArrRecipe.Add(recipe4);*/
+
+            List<string> steps1 = new List<string>();
+            steps1.Add("1.Dizolvam drojdia in 50 ml lapte caldut.Restul de lapte il incalzim impreuna cu zaharul, atat doar cat acesta sa se topeasca. Dam deoparte, lasam sa se racoreasca si adaugam esenta de vanilie.");
+            steps1.Add("2.Intr - un castron punem faina pe care o amestecam cu drojdia inmuiata in lapte, oul, untul topit, praful de sare, coaja rasa de lamaie si laptele caldut. Framantam aluatul pana cand se omogenizeaza, dupa care adaugam uleiul si mai framantam 5 - 10 minute pana se desprinde de pe peretii vasului. Lasam aluatul sa creasca la cald pana isi dubleaza volumul, cam 50 - 60 de minute.");
+            steps1.Add("3.Din aluatul crescut intindem o foaie de 5 - 6 mm grosime. Taiem gogosile cu un pahar mare (diametru 7 - 8cm) si le lasam sa creasca aproximativ 30 de minute, apoi le prajim pe ambele parti in ulei incins. Le scoatem pe un servet de hartie ca sa se absoarba uleiul de la prajit.");
+            steps1.Add("4.Dupa ce s-au racorit, le pudram cu zahar si le servim.");
+
+            List<string> steps2 = new List<string>();
+            steps2.Add("1.Se adauga bomba");
+            steps2.Add("2.Intr - un castron punem faina pe care o amestecam cu drojdia inmuiata in lapte, oul, untul topit, praful de sare, coaja rasa de lamaie si laptele caldut. Framantam aluatul pana cand se omogenizeaza, dupa care adaugam uleiul si mai framantam 5 - 10 minute pana se desprinde de pe peretii vasului. Lasam aluatul sa creasca la cald pana isi dubleaza volumul, cam 50 - 60 de minute.");
+            steps2.Add("3.Dizolvam drojdia in 50 ml lapte caldut.Restul de lapte il incalzim impreuna cu zaharul, atat doar cat acesta sa se topeasca. Dam deoparte, lasam sa se racoreasca si adaugam esenta de vanilie.");
+            steps2.Add("4.Dupa ce s-au racorit, le pudram cu zahar si le servim.");
+
+            ArrRecipe.Add(new Recipe(0, "Gogoasa", "http://velpitar.ro/wp-content/uploads/2015/02/gogoasa.jpg", "Minunata gogoasa magnifica", steps1));
+            ArrRecipe.Add(new Recipe(1, "Ogoasag", "http://4.bp.blogspot.com/-wTdORnU4dzU/VDI9VVYQTlI/AAAAAAAAG04/pAHj-YejlXw/s1600/gogoasa.JPG", "Varianta americana a gogosii", steps2));
         }
 
-        public string ReadAllRecipes()
+        public List<Recipe> ReadAllRecipes()
         {
-            string str = "";
-            foreach (Recipe item in ArrRecipe)
-                str += JsonConvert.SerializeObject(item);
-
-            return str;
+            return ArrRecipe;
+        }
+        
+        public Recipe ReadRecipeById(int id)
+        {
+            return ArrRecipe.Find(x => x.Id == id);
         }
 
         public void Create(Recipe item)

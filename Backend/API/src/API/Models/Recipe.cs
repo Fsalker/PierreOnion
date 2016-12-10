@@ -5,28 +5,18 @@ namespace API.Models
     public class Recipe
     {
         public int Id { get; set; }
-        public string Title { get; set; }
-        public string ImageURL { get; set; } 
+        public string Name { get; set; }
+        public string PhotoUrl { get; set; }
         public string Description { get; set; }
-        public float Rating { get; set; }
-        public float Difficulty { get; set; }
-        public List<Ingredient> Ingredients { get; set; }
-        public List<Comment> Comments { get; set; }
-        public int RequiredTime { get; set; }
-        public int Category { get; set; }
+        public List<string> Steps { get; set; }
 
-        public Recipe(int id, string title, string imageURL, string description, float rating, float difficulty, List<Ingredient> ingredients, List<Comment> comments, int requiredTime, int category)
+        public Recipe(int id, string name, string photoUrl, string description, List<string> steps)
         {
             Id = id;
-            Title = title;
-            ImageURL = imageURL;
+            Name = name;
+            PhotoUrl = photoUrl;
             Description = description;
-            Rating = rating;
-            Difficulty = difficulty;
-            Ingredients = ingredients;
-            Comments = comments;
-            RequiredTime = requiredTime;
-            Category = category;
+            Steps = steps;
         }
     }
 }

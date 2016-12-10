@@ -1,12 +1,12 @@
---temp-output:D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\
---out:D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\bin\Debug\netcoreapp1.0\API.dll
---define:DEBUG
+--temp-output:D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Release\netcoreapp1.0\
+--out:D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\bin\Release\netcoreapp1.0\API.dll
+--define:RELEASE
 --define:TRACE
 --define:NETCOREAPP1_0
 --suppress-warning:CS1701
 --suppress-warning:CS1702
 --suppress-warning:CS1705
---optimize:False
+--optimize:True
 --emit-entry-point:True
 --output-name:API
 --file-version:1.0.0.0
@@ -174,7 +174,7 @@
 --reference:C:\Users\Andrei\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll
 --reference:C:\Users\Andrei\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll
 --reference:C:\Users\Andrei\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll
---resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\APIdotnet-compile.deps.json",API.deps.json
+--resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Release\netcoreapp1.0\APIdotnet-compile.deps.json",API.deps.json
 D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Program.cs
 D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Startup.cs
 D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Controllers\RecipeController.cs

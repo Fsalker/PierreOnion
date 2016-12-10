@@ -53,7 +53,13 @@ namespace API
 
             app.UseApplicationInsightsExceptionTelemetry();
 
-            app.UseMvc();
+            app.UseMvc(routes =>
+            {
+                routes.MapRoute(
+                    name: "default",
+                    template: "api/{controller}/{action}/{id?}"
+                );
+            });
         }
     }
 }

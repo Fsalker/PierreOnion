@@ -1,14 +1,15 @@
-﻿-d:DEBUG
+﻿-d:RELEASE
 -d:TRACE
 -d:NETCOREAPP1_0
 -nowarn:CS1701
 -nowarn:CS1702
 -nowarn:CS1705
+-optimize
 -debug:full
 -nostdlib
 -nologo
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\bin\Debug\netcoreapp1.0\API.dll"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Release\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\bin\Release\netcoreapp1.0\API.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -170,7 +171,7 @@
 -r:"C:\Users\Andrei\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Andrei\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Andrei\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\APIdotnet-compile.deps.json",API.deps.json
+-resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Release\netcoreapp1.0\APIdotnet-compile.deps.json",API.deps.json
 "D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Program.cs"
 "D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Startup.cs"
 "D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Controllers\RecipeController.cs"
