@@ -30,5 +30,12 @@ namespace API.Controllers
         {
             return RecipeRepo.Read(id);
         }
+
+        [HttpPost("{asd}")]
+        public string PostRecipe(string asd)
+        {
+            //RecipeRepo.Create(RecipeRepo.Read(0));
+            return "Hello, "+asd;
+        }
     }
 }

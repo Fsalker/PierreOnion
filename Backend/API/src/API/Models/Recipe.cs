@@ -11,8 +11,9 @@ namespace API.Models
         public string PhotoUrl { get; set; }
         public string Description { get; set; }
         public List<string> Steps { get; set; }
+        public List<string> Ingredients { get; set; }
 
-        public Recipe(int id, string name, string photoUrl, string description, List<string> steps)
+        public Recipe(int id, string name, string photoUrl, string description, List<string> steps, List<string> ingredients)
         {
             //Id = Guid.NewGuid();
             Id = id;
@@ -20,6 +21,7 @@ namespace API.Models
             PhotoUrl = photoUrl;
             Description = description;
             Steps = steps;
+            Ingredients = ingredients;
         }
     }
 }
