@@ -19,7 +19,7 @@ namespace API.Controllers
             return "Hello, your number = "+nr;
         }*/
         
-        /*[HttpGet]
+        [HttpGet]
         public List<Recipe> GetAll()
         {
             return RecipeRepo.ReadAll();
@@ -29,6 +29,6 @@ namespace API.Controllers
         public Recipe GetRecipe(int id)
         {
             return RecipeRepo.Read(id);
-        }*/
+        }
     }
 }
