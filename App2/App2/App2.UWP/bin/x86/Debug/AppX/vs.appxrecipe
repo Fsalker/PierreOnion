@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>97433b6c-9a0b-4ab9-872a-8cb1d1db9db1</PackageIdentityName>
     <PackageIdentityPublisher>CN=Teodora</PackageIdentityPublisher>
-    <IntermediateOutputPath>c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\</IntermediateOutputPath>
     <RemoteDeploymentType>
     </RemoteDeploymentType>
     <PackageRegistrationPath>
@@ -25,16 +25,16 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-09T17:03:43.780</Modified>
+      <Modified>2016-12-10T14:22:13.976</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.exe">
       <PackagePath>entrypoint\App2.UWP.exe</PackagePath>
-      <Modified>2016-12-09T17:03:37.473</Modified>
+      <Modified>2016-12-10T14:22:09.259</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Teodora\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -464,55 +464,59 @@
       <PackagePath>Xamarin.Forms.Xaml.dll</PackagePath>
       <Modified>2015-11-17T05:31:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll">
       <PackagePath>App2.dll</PackagePath>
-      <Modified>2016-12-09T16:59:58.186</Modified>
+      <Modified>2016-12-10T14:20:35.824</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2\bin\Debug\System.Net.Http.Formatting.dll">
-      <PackagePath>System.Net.Http.Formatting.dll</PackagePath>
-      <Modified>2013-05-07T11:09:16.000</Modified>
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\bin\Debug\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+      <Modified>2016-06-13T20:06:14.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Properties\Default.rd.xml">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
       <Modified>2016-12-09T11:31:14.863</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\LockScreenLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2016-12-09T11:31:14.845</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.849</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\Square150x150Logo.scale-200.png">
       <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.851</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\Square44x44Logo.scale-200.png">
       <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.855</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\StoreLogo.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\StoreLogo.png">
       <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.857</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\Assets\Wide310x150Logo.scale-200.png">
       <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2016-12-09T11:31:14.859</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.UWP.xr.xml">
       <PackagePath>App2.UWP.xr.xml</PackagePath>
       <Modified>2016-12-09T17:03:37.198</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\bg-6.jpg">
+      <PackagePath>App2\bg-6.jpg</PackagePath>
+      <Modified>2016-12-10T09:11:49.231</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -526,14 +530,14 @@
       <PackagePath>Xamarin.Forms.Platform.UAP\Properties\Xamarin.Forms.Platform.UAP.rd.xml</PackagePath>
       <Modified>2015-11-17T05:31:56.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-12-09T17:03:42.870</Modified>
+      <Modified>2016-12-10T14:22:12.666</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
+    <AppxPackagedFile Include="C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Core\App2.UWP.exe">
       <PackagePath>App2.UWP.exe</PackagePath>
-      <Modified>2016-12-09T17:03:43.766</Modified>
+      <Modified>2016-12-10T14:22:13.963</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

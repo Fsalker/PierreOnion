@@ -17,8 +17,40 @@ namespace App2 {
     public partial class DetailsPage : global::Xamarin.Forms.ContentPage {
         
         [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label nameLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Image image;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label title1;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label descriptionLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label title2;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label ingredientsLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label title3;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
+        private global::Xamarin.Forms.Label stepsLabel;
+        
+        [System.CodeDom.Compiler.GeneratedCodeAttribute("Xamarin.Forms.Build.Tasks.XamlG", "0.0.0.0")]
         private void InitializeComponent() {
             this.LoadFromXaml(typeof(DetailsPage));
+            nameLabel = this.FindByName<global::Xamarin.Forms.Label>("nameLabel");
+            image = this.FindByName<global::Xamarin.Forms.Image>("image");
+            title1 = this.FindByName<global::Xamarin.Forms.Label>("title1");
+            descriptionLabel = this.FindByName<global::Xamarin.Forms.Label>("descriptionLabel");
+            title2 = this.FindByName<global::Xamarin.Forms.Label>("title2");
+            ingredientsLabel = this.FindByName<global::Xamarin.Forms.Label>("ingredientsLabel");
+            title3 = this.FindByName<global::Xamarin.Forms.Label>("title3");
+            stepsLabel = this.FindByName<global::Xamarin.Forms.Label>("stepsLabel");
         }
     }
 }

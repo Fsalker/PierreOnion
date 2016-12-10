@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<MasterDetailPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="App2.Page1"
+              xmlns:local="clr-namespace:App2; assembly=MainPage">
+  <MasterDetailPage.Master>
+    <ContentPage Title="Categories">
+      <StackLayout Orientation="Vertical" Padding="40">
+
+        <Label Text=""
+               FontSize="30"/>
+        <Label  x:Name="categories"
+                Text="  Categories" 
+               HorizontalOptions="FillAndExpand"
+               FontSize="30"/>
+
+        <Label Text=""
+               FontSize="30"/>
+        <Button Text="Appetizers"
+                HorizontalOptions="FillAndExpand"
+        Clicked="Button_OnClick1"
+        TextColor="Olive"/>
+
+        <Button Text="Main Dishes"
+                HorizontalOptions="FillAndExpand"
+        Clicked="Button_OnClick2"
+        TextColor="Olive"/>
+
+        <Button Text="Desserts"
+                HorizontalOptions="FillAndExpand"
+        Clicked="Button_OnClick3"
+        TextColor="Olive"/>
+
+        <Button Text="Vegan"
+                HorizontalOptions="FillAndExpand"
+        Clicked="Button_OnClick4"
+        TextColor="Olive"/>
+
+      </StackLayout>
+    </ContentPage>
+
+  </MasterDetailPage.Master>
+
+  <MasterDetailPage.Detail>
+    <local:MainPage/>
+  </MasterDetailPage.Detail>
+
+</MasterDetailPage>

@@ -128,9 +128,9 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\App2\App2.csproj">
+    <ProjectReference Include="..\App2\Pierre.csproj">
       <Project>{1AFBDA72-F09A-4B41-8A76-95AD33D0C322}</Project>
-      <Name>App2</Name>
+      <Name>Pierre</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

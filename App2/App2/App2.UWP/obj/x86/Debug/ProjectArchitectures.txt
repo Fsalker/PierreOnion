@@ -1,2 +1,2 @@
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\App2.UWP.csproj;x86
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2\App2.csproj;neutral
+C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\App2.UWP.csproj;x86
+C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\App2.csproj;neutral

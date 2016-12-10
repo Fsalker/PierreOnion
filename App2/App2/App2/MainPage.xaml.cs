@@ -24,14 +24,20 @@ namespace App2
 
             Request request = new Request();
             myListView.ItemsSource = await request.GetRecipes();
-
+           
+            myListView.ItemTapped += async (sender1,e1)=>
+            {
+                int i = (myListView.ItemsSource as List<Recipes>).IndexOf(myListView.SelectedItem as Recipes);
+                
+                await Navigation.PushModalAsync(new DetailsPage(i));
+            } ;
+            
 
 
         }
-        private async void OnItemTapped(object sender, ItemTappedEventArgs e)
-        {
-            if (e == null) return;
-            await Navigation.PushModalAsync(new DetailsPage());
-        }
+
+
+
+
     }
 }

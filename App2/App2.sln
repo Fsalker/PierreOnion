@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.Droid", "App2\App2.Droid\App2.Droid.csproj", "{1DF41CA3-28EC-48F0-8AC8-BC93E0F65284}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.Droid", "App2\App2.Droid\Pierre.Droid.csproj", "{1DF41CA3-28EC-48F0-8AC8-BC93E0F65284}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.iOS", "App2\App2.iOS\App2.iOS.csproj", "{066B1E98-CD69-43C9-B05F-41F28B1F36B7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.WinPhone", "App2\App2.WinPhone\App2.WinPhone.csproj", "{C6D3DA63-6745-4C73-9E02-6596AAAEBEA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.UWP", "App2\App2.UWP\App2.UWP.csproj", "{007AE332-6AB5-440D-8DFB-06A6CFE95028}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre.UWP", "App2\App2.UWP\Pierre.UWP.csproj", "{007AE332-6AB5-440D-8DFB-06A6CFE95028}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2.Windows", "App2\App2.Windows\App2.Windows.csproj", "{BA26A672-00DE-43DB-BC68-1AB73885292C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App2", "App2\App2\App2.csproj", "{1AFBDA72-F09A-4B41-8A76-95AD33D0C322}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pierre", "App2\App2\Pierre.csproj", "{1AFBDA72-F09A-4B41-8A76-95AD33D0C322}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{DB60B793-042A-42E9-8EE0-90BC4C6ED8BC}"
 EndProject

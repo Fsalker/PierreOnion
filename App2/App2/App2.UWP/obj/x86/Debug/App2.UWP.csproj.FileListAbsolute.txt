@@ -116,9 +116,7 @@ c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x8
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Xamarin.Forms.Platform.dll
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Xamarin.Forms.Xaml.dll
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.dll
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\System.Net.Http.Formatting.dll
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\App2.pdb
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\System.Net.Http.Formatting.xml
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\App2.UWP.csprojResolveAssemblyReference.cache
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\App.g.i.cs
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\App.g.cs
@@ -186,8 +184,6 @@ c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x8
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\FxResources.System.Xml.XDocument.SR.resw
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\FxResources.System.Xml.XmlDocument.SR.resw
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\FxResources.System.Xml.XmlSerializer.SR.resw
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.CommonWebApiResources.resw
-c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\System.Net.Http.Formatting\en-US\System.Net.Http.Properties.Resources.resw
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\App2.UWP.csproj.GenerateResource.Cache
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\priconfig.xml
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\priconfig.xml.intermediate
@@ -202,3 +198,5 @@ c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x8
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\Xamarin.Forms.Platform.UAP.pri.xml
 c:\users\teodora\documents\visual studio 2015\Projects\App2\App2\App2.UWP\obj\x86\Debug\ProjectArchitectures.txt
+C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Newtonsoft.Json.dll
+C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2.UWP\bin\x86\Debug\Newtonsoft.Json.xml
