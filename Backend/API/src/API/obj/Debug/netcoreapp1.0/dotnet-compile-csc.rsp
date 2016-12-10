@@ -7,8 +7,8 @@
 -debug:full
 -nostdlib
 -nologo
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
--out:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\bin\Debug\netcoreapp1.0\API.dll"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\obj\Debug\netcoreapp1.0\dotnet-compile.assemblyinfo.cs"
+-out:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\bin\Debug\netcoreapp1.0\api.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.ApplicationInsights\2.1.0\lib\dotnet5.4\Microsoft.ApplicationInsights.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.ApplicationInsights.AspNetCore\1.0.0\lib\netstandard1.6\Microsoft.ApplicationInsights.AspNetCore.dll"
 -r:"C:\Users\Andrei\.nuget\packages\Microsoft.AspNetCore.Antiforgery\1.0.1\lib\netstandard1.3\Microsoft.AspNetCore.Antiforgery.dll"
@@ -170,13 +170,13 @@
 -r:"C:\Users\Andrei\.nuget\packages\System.Threading.Timer\4.0.1\ref\netstandard1.2\System.Threading.Timer.dll"
 -r:"C:\Users\Andrei\.nuget\packages\System.Xml.ReaderWriter\4.0.11\ref\netstandard1.3\System.Xml.ReaderWriter.dll"
 -r:"C:\Users\Andrei\.nuget\packages\System.Xml.XDocument\4.0.11\ref\netstandard1.3\System.Xml.XDocument.dll"
--resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\obj\Debug\netcoreapp1.0\APIdotnet-compile.deps.json",API.deps.json
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Program.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Startup.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Controllers\RecipeController.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\JavascriptSerializer\Serialize.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Models\Comment.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Models\Ingredient.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Models\IRepo.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Models\Recipe.cs"
-"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\API\Models\Repo.cs"
+-resource:"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\obj\Debug\netcoreapp1.0\apidotnet-compile.deps.json",api.deps.json
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Program.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Startup.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Controllers\RecipeController.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\JavascriptSerializer\Serialize.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Models\Comment.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Models\Ingredient.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Models\IRepo.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Models\Recipe.cs"
+"D:\Proiecte [stuff]\PierreOnion\Backend\API\src\api\Models\Repo.cs"
