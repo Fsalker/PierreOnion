@@ -132,11 +132,15 @@ namespace API.Models
             steps3.Add("3.Bash the garlic with the flat of a knife and peel off the skin.Crush with a garlic crusher.Mash the anchovies with a fork against the side of a small bowl.Grate a handful of cheese and mix with the rest of the dressing ingredients. Season to taste.It should be the consistency of yogurt – if yours is thicker, stir in a few tsps water to thin it.");
             steps3.Add("4.Shave the cheese with a peeler.Tear lettuce into large pieces and put in a large bowl.Pull chicken into bite-size strips and scatter half over the leaves, along with half the croutons.Add most of the dressing and toss with your fingers. Scatter the rest of the chicken and croutons, then drizzle with the remaining dressing.Sprinkle the Parmesan on top and serve straight away.");
 
-            
 
-            ArrRecipe.Add(new Recipe(0, "French Apple Rolls", url1 , desc1, steps1, ing1));
+
+            ArrRecipe.Add(new Recipe(0, "French Apple Rolls", url1, desc1, steps1, ing1));
             ArrRecipe.Add(new Recipe(1, "French Fries", url2, desc2, steps2, ing2));
             ArrRecipe.Add(new Recipe(2, "Cesar salad", url3, desc3, steps3, ing3));
+            ArrRecipe.Add(new Recipe(3, "French Apple Rolls", url1, desc1, steps1, ing1));
+            ArrRecipe.Add(new Recipe(4, "French Fries", url2, desc2, steps2, ing2));
+            ArrRecipe.Add(new Recipe(5, "Cesar salad", url3, desc3, steps3, ing3));
+
         }
 
         public List<Recipe> ReadAll()
