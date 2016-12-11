@@ -15,8 +15,5 @@ C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\
 C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\App2.Page1.xaml.g.cs
 C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\App2.dll
 C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\App2.pdb
-C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\Pierre.csprojResolveAssemblyReference.cache
-C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\App2.dll.mdb
-C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll.mdb
 C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\obj\Debug\App2.dll.mdb
 C:\Users\Teodora\Documents\Visual Studio 2015\Projects\App2\App2\App2\bin\Debug\App2.dll.mdb

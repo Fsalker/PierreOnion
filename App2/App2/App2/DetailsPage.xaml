@@ -19,37 +19,36 @@
 
         <Label Text=""
            FontSize="40"
-           HorizontalOptions="Center"
-           />
+           HorizontalOptions="Center" />
 
         <Image x:Name="image" HeightRequest="200" WidthRequest="200"
                Source="{Binding PhotoUrl}"/>
 
         <Label Text=""
                FontSize="10"
-           HorizontalOptions="Center"/>
+                HorizontalOptions="Center"/>
         
-        <Label   x:Name="title1"
-          Text="Description:"
-                 FontSize="15"
+        <Label x:Name="title1"
+              Text="Description:"
+               FontSize="15"
                HorizontalOptions="CenterAndExpand"
                TextColor="Maroon"/>
+        
         <Label Text=""
-                       FontSize="10"
-                       HorizontalOptions="Center"
-           />
-        <Label x:Name="descriptionLabel"
-          Text="{Binding Description}"
+               FontSize="10"
+                HorizontalOptions="Center"/>
                
-               FontSize="15"
+        <Label x:Name="descriptionLabel"
+               Text="{Binding Description}"
+                FontSize="15"
                HorizontalOptions="CenterAndExpand"
                TextColor="Maroon"
                Opacity="0.5" />
 
         <Label Text=""
                FontSize="10"
-               HorizontalOptions="Center"
-           />
+               HorizontalOptions="Center"/>
+        
         <Label Text="Ingredients:"
                  x:Name="title2"
                  FontSize="15"
@@ -57,34 +56,34 @@
                TextColor="Maroon"/>
         <Label Text=""
                FontSize="10"
-               HorizontalOptions="Center"
-           />
+               HorizontalOptions="Center"/>
+        
         <Label x:Name="ingredientsLabel"
-           Text="{Binding Ingredients}"
-            FontSize="15"
-        TextColor="Maroon"
-               HorizontalOptions="Center"
-           />
+                 Text="{Binding Ingredients}"
+                FontSize="15"
+               TextColor="Maroon"
+               HorizontalOptions="Center" />
+        
         <Label Text=""
                FontSize="10"
                HorizontalOptions="Center"
            />
         <Label Text="Steps:"
- x:Name="title3"
-
-                         FontSize="15"
-                       HorizontalOptions="CenterAndExpand"
-                       TextColor="Maroon"/>
+                x:Name="title3"
+               FontSize="15"
+               HorizontalOptions="CenterAndExpand"
+               TextColor="Maroon"/>
+        
         <Label Text=""
                FontSize="10"
-               HorizontalOptions="Center"
-           />
+               HorizontalOptions="Center"/>
+        
         <Label x:Name="stepsLabel"
               Text="{Binding Steps}"
                FontSize="15"
                TextColor="Maroon"
-               HorizontalOptions="Center"
-           />
+               HorizontalOptions="Center"/>
+      
       </StackLayout>
     </ScrollView>
  

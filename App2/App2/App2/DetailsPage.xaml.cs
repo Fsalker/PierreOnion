@@ -10,18 +10,18 @@ namespace App2
 {
     public partial class DetailsPage : ContentPage
     {
-
+          int j;
         public DetailsPage(int i)
         {
-            j = i;
             InitializeComponent();
+            j = i;
             BackgroundColor = Color.FromHex("#FFDAB9");
             title1.TextColor= Color.FromHex("#B22222");
             title2.TextColor = Color.FromHex("#B22222");
             title3.TextColor = Color.FromHex("#B22222");
         }
 
-        int j;
+      
 
         private async void On_Appearing(object sender, EventArgs e)
         {
@@ -33,7 +33,6 @@ namespace App2
             stepsLabel.Text = String.Join("\n", recipe.Steps);
             ingredientsLabel.Text= String.Join("\n", recipe.Ingredients);
 
-    
         }
     }
 
